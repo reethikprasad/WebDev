@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a600276ad4.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Catamaran&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/simplelightbox.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Phono</h1>
+            <ul class="nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+
+            </ul>
+        </div>
+
+    </nav>
+
+    <section class="section-a">
+        <div class="container">
+            <div>
+                <h1>The Headphones of the future</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem consequuntur illo, sit ipsum incidunt repudiandae labore reprehenderit dolorum at ducimus!</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+            <img src="img/showcase.jpg" alt="">
+
+        </div >
+    </section>
+
+    <!--overlay section
+    -->
+    <section class="section-b">
+        <div class="overlay">
+            <div class="section-b-inner">
+                <h3>Loud and clear</h3>
+                <h2>People Aren't Hearing All The Music</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem temporibus unde veritatis perspiciatis magnam laboriosam blanditiis iste cumque odio vitae.</p>
+
+                    
+            </div>
+        </div>
+    </section>
+
+    <!--gallery-->
+    <section class="section-c">
+        <div class="gallery">
+            <a href="https://i.ibb.co/CHLBZnp/gal2323.jpg" class="big"
+            ><img src="https://i.ibb.co/CHLBZnp/gal2323.jpg" alt=""
+          /></a>
+          <a href="https://i.ibb.co/4pBbhfY/gal39834.jpg" class="big"
+            ><img src="https://i.ibb.co/4pBbhfY/gal39834.jpg" alt=""
+          /></a>
+          <a href="https://i.ibb.co/xSnHP7g/gal43884.jpg" class="big"
+            ><img src="https://i.ibb.co/xSnHP7g/gal43884.jpg" alt=""
+          /></a>
+          <a href="https://i.ibb.co/QN6Bnrb/gal4958.jpg" class="big"
+            ><img src="https://i.ibb.co/QN6Bnrb/gal4958.jpg" alt=""
+          /></a>
+          <a href="https://i.ibb.co/dGZvj75/gal4545.jpg" class="big">
+            <img src="https://i.ibb.co/dGZvj75/gal4545.jpg" alt=""
+          /></a>
+          <a href="https://i.ibb.co/S6FVFNt/gal74744.jpg" class="big"
+            ><img src="https://i.ibb.co/S6FVFNt/gal74744.jpg" alt=""
+          /></a>
+        </div>
+    </section>
+
+
+    <!--Footer-->
+    <footer class="section-footer">
+        <div class="container">
+            <div>
+                <h2>Connect with us on</h2>
+                <a href="http://twitter.com">
+                <i class="fab fa-twitter fa-2x"></i>
+                </a>
+                <a href="http://facebook.com">
+                    <i class="fab fa-facebook fa-2x"></i>
+                    </a>
+                <a href="http://youtube.com">
+                    <i class="fab fa-youtube fa-2x"></i>
+                    </a>
+            </div>
+            <div>
+                <h3>Company Info</h3>
+                <ul>
+                  <li><a href="#">All Products</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Blog Posts</h3>
+                <ul>
+                  <li><a href="#">Lorem ipsum dolor.</a></li>
+                  <li><a href="#">Lorem ipsum dolor.</a></li>
+                  <li><a href="#">Lorem ipsum dolor.</a></li>
+                  <li><a href="#">Lorem ipsum dolor.</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Subscribe</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <form name="email-form" method="POST" data-netlify="true">
+                    <div class="email-form">
+                        <span class="form-control-wrap">
+                            <input 
+                            type="email"
+                            name="email"
+                            id="email"
+                            size="40"
+                            class="form-control"
+                            placeholder="Email"
+                                />
+                        </span>
+                        <button type="submit"  value="Submit" class="form-control submit" >
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="js/simple-lightbox.js"></script>
+    <script>
+        $(function () {
+            const $gallery = $('.gallery a').simpleLightbox();
+        })
+    </script>
+</body>
+</html>
