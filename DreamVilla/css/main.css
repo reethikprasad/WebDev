@@ -1,0 +1,35 @@
+.slider .btn{
+    margin-top: 22px;
+}
+
+.section-search input {
+    padding: 5px !important;
+    font-size: 18px !important;
+    width: 90% !important;
+    border: #f4f4f4 3px solid !important;
+    border-radius: 25px !important;
+
+    color: burlywood !important;
+  }
+  
+  .autocomplete-content {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    
+    color: burlywood !important;
+  }
+
+  .card-panel{
+      border-radius: 2px;
+      
+  }
+
+  .section-follow .fa-4x{
+      margin: 5px 10px;
+  }
+
+  body{
+    font-family: 'Nunito', sans-serif;
+
+  }
